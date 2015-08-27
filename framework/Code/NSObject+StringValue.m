@@ -10,7 +10,7 @@
 @implementation NSObject (StringValue)
 
 /**  */
-- (NSString*)stringValue
+- (NSString*)dk_stringValue
 {
 	return NSStringFromClass([self class]);
 }
