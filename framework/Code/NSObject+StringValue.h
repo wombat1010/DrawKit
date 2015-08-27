@@ -16,7 +16,7 @@ The most useful is probably NSValue, since this will automatically use NSStringF
 
 /**  */
 - (NSString*)stringValue;
-- (NSString*)address;
+- (NSString*)dk_address;
 
 @end
 
