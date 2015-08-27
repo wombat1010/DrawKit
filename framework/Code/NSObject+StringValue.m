@@ -10,12 +10,12 @@
 @implementation NSObject (StringValue)
 
 /**  */
-- (NSString*)dk_stringValue
+- (NSString*)stringValue
 {
 	return NSStringFromClass([self class]);
 }
 
-- (NSString*)address
+- (NSString*)dk_address
 {
 	return [NSString stringWithFormat:@"%p", self];
 }
