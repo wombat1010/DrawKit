@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "LGPL3", :file => "DKDrawKit.framework/Resources/LICENSE-LGPL3.txt" }
 
   s.platform     = :osx, "10.7"
-  s.source       = { :git => "https://github.com/wombat1010/DrawKit/blob/master/DrawKit.podspec", :tag => "#{ s.version }" }
+  s.source       = { :git => "https://github.com/wombat1010/DrawKit.git", :tag => "#{ s.version }" }
 
   s.author   = { 'Graham Miln' => 'graham.miln@miln.eu' } # Maintainer
   s.social_media_url   = "http://twitter.com/grahammiln"
